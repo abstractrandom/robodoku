@@ -37,20 +37,3 @@ class SolverTest < Minitest::Test
     assert_equal [2], @solver.spot_solver
   end
 end
-
-# >> Run options: --seed 2032
-# >>
-# >> # Running:
-# >>
-# >>
-# >>
-# >> [38;5;154mF[0m[38;5;154ma[0m[38;5;148mb[0m[38;5;184mu[0m[38;5;184ml[0m[38;5;214mo[0m[38;5;214mu[0m[38;5;208ms[0m[38;5;208m [0m[38;5;203mr[0m[38;5;203mu[0m[38;5;198mn[0m in 0.001057s, 0.0000 runs/s, 0.0000 assertions/s.
-# >>
-# >> 0 runs, 0 assertions, 0 failures, 0 errors, 0 skips
-
-# ~> LoadError
-# ~> cannot load such file -- ./solver
-# ~>
-# ~> /Users/davidmaurer/.rvm/rubies/ruby-2.1.5/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-# ~> /Users/davidmaurer/.rvm/rubies/ruby-2.1.5/lib/ruby/site_ruby/2.1.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-# ~> /Users/davidmaurer/turing/challenges/robodoku/solver_test.rb:4:in `<main>'
